@@ -24,4 +24,10 @@ func main() {
 	fmt.Println(getUmur("27"))
 	fmt.Println(getUmur(27.2))
 	fmt.Println(getUmur(true))
+
+	// type assertions atau konversi tipe interface menjadi tipe data string, int, float, bool
+	var umur interface{} = getUmur(27)
+	var umurInt int = umur.(int)
+	var tambahUmur = umurInt + 3
+	fmt.Println(tambahUmur)
 }
