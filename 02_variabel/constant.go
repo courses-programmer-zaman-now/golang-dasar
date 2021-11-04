@@ -9,7 +9,7 @@ func main() {
 	const (
 		firstName = "Danil"
 		lastName  = "Syah"
-          value = 1000
+		value     = 1000
 	)
 
 	fmt.Println(firstName)

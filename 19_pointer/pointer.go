@@ -30,4 +30,17 @@ func main() {
 	address4.City = "Jogjakarta"
 	address4.Country = ""
 	fmt.Println(address4)
+
+	i, j := 42, 2701
+
+	p := &i
+	fmt.Println(*p)
+	*p = 21
+	fmt.Println(i)
+
+	p = &j
+	fmt.Println(*p)
+	*p = *p / 37
+	fmt.Println(j)
+
 }
