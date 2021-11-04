@@ -16,8 +16,8 @@ func main() {
 	var lulus bool = lulusNilaiAkhir && lulusAbsensi
 	var lulus2 bool = lulusNilaiAkhir || lulusAbsensi
 
-	fmt.Println(lulus) 
+	fmt.Println(lulus)
 	fmt.Println(lulus2)
-     fmt.Println(nilaiAkhir >= 80 && absensi >= 75)
-     
+	fmt.Println(nilaiAkhir >= 80 && absensi >= 75)
+
 }
