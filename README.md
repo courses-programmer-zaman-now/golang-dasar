@@ -1,6 +1,6 @@
 # Golang Dasar
 
-## List Materi Dasar Golang
+## List Materi Dasar Golang :
 
 1. Intro Program "Hello World"
 2. Tipe Data
